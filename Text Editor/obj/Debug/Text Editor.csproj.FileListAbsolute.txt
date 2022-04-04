@@ -1,0 +1,30 @@
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\bin\Debug\Text Editor.exe.config
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\bin\Debug\Text Editor.exe
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\bin\Debug\Text Editor.pdb
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\bin\Debug\MaterialDesignColors.dll
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\bin\Debug\MaterialDesignColors.pdb
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\Text Editor.csproj.AssemblyReference.cache
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\Text Editor.csproj.SuggestedBindingRedirects.cache
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\Themes\DefaultButtonTheme.baml
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\Themes\TitleButtonTheme.baml
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\App.g.cs
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\Text Editor_MarkupCompile.cache
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\Text Editor_MarkupCompile.lref
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\App.baml
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\Text Editor.g.resources
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\Text_Editor.Properties.Resources.resources
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\Text Editor.csproj.GenerateResource.cache
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\Text Editor.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\Text Editor.csproj.CopyComplete
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\Text Editor.exe
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\Text Editor.pdb
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\MVVM\View\Pages\MainPage.g.cs
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\MVVM\View\Pages\MainPage.baml
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\MVVM\View\Windows\MainWindow.g.cs
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\MVVM\View\Windows\MainWindow.baml
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\MVVM\View\Windows\SettingsWindow.g.cs
+D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\obj\Debug\MVVM\View\Windows\SettingsWindow.baml
