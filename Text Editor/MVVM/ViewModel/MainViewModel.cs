@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -15,9 +16,10 @@ namespace Text_Editor.MVVM.ViewModel
         #region Fields
 
         private Page _mainPage;
+        private Page _settingsPage;
 
         #region View fields
-        
+
         /// <summary>
         /// Window width
         /// </summary>
@@ -116,6 +118,7 @@ namespace Text_Editor.MVVM.ViewModel
         public MainViewModel()
         {
             _mainPage = new MainPage();
+            _settingsPage = new SettingsPage();
 
             currentPage = _mainPage;
 
@@ -126,7 +129,6 @@ namespace Text_Editor.MVVM.ViewModel
         }
 
         #region Commands
-
 
         /// <summary>
         /// Button maximize restore click
@@ -179,19 +181,26 @@ namespace Text_Editor.MVVM.ViewModel
 
         private void OnSettingsCommandExecuted(object p)
         {
-            var window = new SettingsWindow();
-            window.Show();
+            FrameAnimation(_settingsPage);
         }
 
-
-        fdsf
-
         #endregion
-        
 
         #region Methods
 
-
+        private async void FrameAnimation(Page page)
+        {
+            await Task.Run(() =>
+            {
+                currentPage = page;
+                
+                for (int i = 0; i < 100; i++)
+                {
+                    frameOpacity = i / 100.0f;
+                    System.Threading.Thread.Sleep(5);
+                }
+            });
+        }
 
         #endregion
     }

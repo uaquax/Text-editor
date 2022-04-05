@@ -3,17 +3,40 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:avalon="http://icsharpcode.net/sharpdevelop/avalonedit"
       xmlns:local="clr-namespace:Text_Editor.MVVM.View.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="MainPage">
 
-    <Grid>
-        <TextBlock Text="Main page"
-                   Foreground="Red"
-                   FontWeight="SemiBold"
-                   FontSize="72"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center"/>
+    <Grid Background="White"
+          PreviewMouseWheel="MouseWheel">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <avalon:TextEditor x:Name="text" 
+                           ShowLineNumbers="True" Text="some more test&#10; some more test&#10; some more test&#10; some more test&#10; some more test&#10; some more test&#10; some more test&#10; some more test&#10; some more test&#10; "
+                           Grid.Row="1"
+                           FontFamily="Cascadia code"
+                           FontWeight="Regular">
+        </avalon:TextEditor>
+
+        <StackPanel Orientation="Horizontal"
+                    Background="#e2e2e2">
+            <Button Style="{StaticResource TitleButtonTheme}"
+                    Width="35"
+                    Height="35"
+                    Margin="5 0 0 0"
+                    Click="SaveButtonClick">
+                <Button.Content>
+                    <Viewbox>
+                        <md:PackIcon Kind="ContentSaveOutline"/>
+                    </Viewbox>
+                </Button.Content>
+            </Button>
+        </StackPanel>
     </Grid>
 </Page>

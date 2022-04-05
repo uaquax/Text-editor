@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Programming\C#\Applications DEV\Text Editor\Text Editor\Text Editor\App.xaml
-5611079076
+6507698989
 
-131192083492
-15751633264
-MVVM\View\Windows\MainWindow.xaml;MVVM\View\Pages\MainPage.xaml;MVVM\View\Windows\SettingsWindow.xaml;Themes\DefaultButtonTheme.xaml;Themes\TitleButtonTheme.xaml;
+15-840966368
+150667472206
+MVVM\View\Pages\SettingsPage.xaml;MVVM\View\Windows\MainWindow.xaml;MVVM\View\Pages\MainPage.xaml;MVVM\View\Windows\SettingsWindow.xaml;Themes\DefaultButtonTheme.xaml;Themes\TitleButtonTheme.xaml;
 
-False
+True
 
